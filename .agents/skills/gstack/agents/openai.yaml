@@ -1,0 +1,6 @@
+interface:
+  display_name: "gstack"
+  short_description: "Router for the gstack skill suite. Sends any gstack request to the right skill (planning, review, QA, shipping,..."
+  default_prompt: "Use gstack for this task."
+policy:
+  allow_implicit_invocation: true

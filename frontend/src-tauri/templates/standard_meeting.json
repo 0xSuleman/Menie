@@ -1,0 +1,42 @@
+{
+  "name": "Standard Meeting Notes",
+  "description": "A standard template for general meetings, focusing on key outcomes and actions.",
+  "sections": [
+    {
+      "title": "Summary",
+      "instruction": "Provide a brief, one-paragraph executive summary of the entire meeting.",
+      "format": "paragraph"
+    },
+    {
+      "title": "Decisions",
+      "instruction": "List the most important decisions made during the meeting.",
+      "format": "list"
+    },
+    {
+      "title": "Action Items",
+      "instruction": "List all assigned tasks as bullets with an owner and due date only when explicitly stated. Do not invent an owner, date, transcript reference, or timestamp.",
+      "format": "list",
+      "item_format": "- Owner: <name or Unassigned>; Task: <task>; Due: <date or Unspecified>"
+    },
+    {
+      "title": "Risks",
+      "instruction": "List concrete risks raised in the meeting. Use bullets and omit this section content when none were discussed.",
+      "format": "list"
+    },
+    {
+      "title": "Blockers",
+      "instruction": "List active blockers or impediments discussed in the meeting. Use bullets and omit this section content when none were discussed.",
+      "format": "list"
+    },
+    {
+      "title": "Open Questions",
+      "instruction": "List unresolved questions explicitly raised in the meeting. Use bullets and omit this section content when none were discussed.",
+      "format": "list"
+    },
+    {
+      "title": "Discussion Highlights",
+      "instruction": "Summarize the main topics of discussion, key arguments, and important insights.",
+      "format": "paragraph"
+    }
+  ]
+}

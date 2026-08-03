@@ -1,0 +1,1 @@
+ALTER TABLE settings ADD COLUMN allow_outbound_webhooks INTEGER NOT NULL DEFAULT 1;

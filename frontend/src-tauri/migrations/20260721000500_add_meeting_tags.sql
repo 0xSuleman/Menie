@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS tags (
+    name TEXT PRIMARY KEY COLLATE NOCASE,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS meeting_tags (
+    meeting_id TEXT NOT NULL REFERENCES meetings(id) ON DELETE CASCADE,
+    tag_name TEXT NOT NULL REFERENCES tags(name) ON DELETE CASCADE,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (meeting_id, tag_name)
+);
+
+CREATE INDEX IF NOT EXISTS idx_meeting_tags_tag_name ON meeting_tags(tag_name);
