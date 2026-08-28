@@ -13,6 +13,8 @@
 
 </div>
 
+> **Provenance:** Menie is an experimental derivative of [Meetily](https://github.com/Zackriya-Solutions/meetily) by Zackriya Solutions. The upstream MIT copyright is preserved. See [ATTRIBUTION.md](ATTRIBUTION.md) before citing or contributing to this repository.
+
 ---
 
 ## 🌟 What is Menie?
